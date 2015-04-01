@@ -101,8 +101,10 @@ var quot = ["'",'"'];
 //string types
 var res = /* Reserved words */ ['var','for','while','do','in','function','new','class','if','else'];
 var con = /* Constants */ ['true','false','undefined','null','NaN','this'];
-id('lesson').innerHTML = codify(id('lesson').innerHTML);
-var codes = document.getElementsByTagName('code');
-for(var s in codes){
-  codes[s].innerHTML = parse(codes[s].innerHTML);
+function render(){
+  id('lesson').innerHTML = codify(id('lesson').innerHTML);
+  var codes = document.getElementsByTagName('code');
+  for(var s in codes){
+    codes[s].innerHTML = parse(codes[s].innerHTML);
+  }    
 }
