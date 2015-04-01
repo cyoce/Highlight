@@ -108,3 +108,4 @@ function render(){
     codes[s].innerHTML = parse(codes[s].innerHTML);
   }    
 }
+render();
