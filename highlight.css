@@ -1,0 +1,52 @@
+.res {
+  color:#f0f;
+}
+.con {
+  color:#f70;
+}
+.group {
+  color:#888;
+}
+.var {
+  color:#08f;
+}
+.num {
+  color:#0a0;
+}
+.str {
+  color:#8a0;
+}
+.op {
+  color:#00f;
+}
+.white {
+ color:#555;
+}
+/*span {
+        outline:solid 1px #ddd;
+}*/
+pre#lesson {
+  display:inline-block;
+  background-color:#fff;
+  font-family:avenir,sans-serif;
+  font-size:14px;
+}
+pre {
+  margin-top:0;
+  display:inline-block;
+  background-color:#ddd;
+  word-wrap:break-word;
+	padding:2px 4px;
+}
+pre span {
+  background-color:#ddd;
+}
+code {
+  display:inline-block;
+	font-family:source code pro,andale mono,lucida console,consolas,menlo,courier,monospace;
+	font-size:13px;
+	font-weight:normal;
+}
+body {
+  background-color:#fff;
+}
