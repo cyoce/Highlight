@@ -22,15 +22,6 @@
 .white {
  color:#555;
 }
-/*span {
-        outline:solid 1px #ddd;
-}*/
-pre#lesson {
-  display:inline-block;
-  background-color:#fff;
-  font-family:avenir,sans-serif;
-  font-size:14px;
-}
 pre {
   margin-top:0;
   display:inline-block;
