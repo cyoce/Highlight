@@ -35,7 +35,6 @@ pre {
   margin-top:0;
   display:inline-block;
   background-color:#ddd;
-  word-wrap:break-word;
 	padding:2px 4px;
 }
 pre span {
