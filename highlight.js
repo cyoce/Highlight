@@ -99,7 +99,7 @@ var op = '!%^&*-=+\\|:,<.>/?'.split('');
 var group = '()[]{};'.split('');
 var quot = ["'",'"'];
 //string types
-var res = /* Reserved words */ ['var','for','while','do','in','function','new','class','if','else'];
+var res = /* Reserved words */ ['var','for','while','do','in','function','new','class','if','else','return'];
 var con = /* Constants */ ['true','false','undefined','null','NaN','this'];
 function render(){
   id('lesson').innerHTML = codify(id('lesson').innerHTML);
