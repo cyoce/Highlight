@@ -20,7 +20,16 @@
   color:#00f;
 }
 .white {
- color:#555;
+  color:#555;
+}
+.paren {
+  outline:solid 1px #f00;
+}
+.brack {
+  outline:solid 1px #0f0;
+}
+.curl {
+  outline:solid 1px #00f;
 }
 pre {
   margin-top:0;
